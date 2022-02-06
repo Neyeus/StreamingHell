@@ -1,0 +1,61 @@
+header{
+    background-color: rgb(218, 204, 187);
+}
+
+body{
+    background-color: rgb(24, 16, 16);
+    height: 800px;
+    width: 1330px;
+}
+
+#barre_recherche{
+    background-color: rgb(119, 28, 28);
+    position: relative;
+    width: 1000px;
+    padding: 30px;
+    text-align: center;
+
+
+    top : -800px;
+    left : 120px;
+}
+#infos{
+    position: relative;
+    background-color: rgb(119, 28, 28);
+  
+    height: 100px;
+    text-align: center;
+
+}
+
+#lecteur{
+    background-color: rgb(119, 28, 28);
+    position: relative;
+    height: 480px;
+    width: 800px;
+
+    top : -420px;
+    left : 250px;
+}
+
+#pubgauche{
+    position: relative;
+    background-color: rgb(119, 28, 28);
+    height: 430px;
+    width: 200px;
+
+
+    top : 30px;
+    left : 10px;
+}
+
+#pubdroite{
+    position: relative;
+    background-color: rgb(119, 28, 28);
+    height: 430px;
+    width: 200px;
+
+
+    top : -880px;
+    left : 1100px;
+}

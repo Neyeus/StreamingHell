@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>STREAMING BY NEYEUS</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="js.js"></script>
+  <script src="php.php"></script>
+</head>
+
+<header>
+    <div id = infos>
+        <h1>Hell Streaming</h1>
+        <p>Descendez dans la liste et cliquez sur le film que vous voulez voir ! 
+            Pour trouver un film vous pouvez faire Ctrl F.</p>
+    </div>
+
+</header>
+<body>
+    <div id = pubgauche>
+        <img src="pubs/Bobux.png" alt="pub" height="430" width="200">
+    </div>
+
+    <div id = lecteur>
+    <video controls="controls" height="480px" width="800px" id="lecture">
+        <source id = "video" src = "" type="video/mp4">
+    </video>
+    </div>
+
+    <div id = pubdroite>
+        <img src="pubs/ReichNamibie.png" alt="pub" height="430" width="200">
+    </div>
+
+
+    <div id = barre_recherche>
+        <h3 onclick="ChangeSrc('films/Sharknado5.mp4')">Sharknado 5</h3>
+        <h3 onclick="ChangeSrc('films/Sharknado6.mp4')">Sharknado 6</h3>
+        <h3 onclick="ChangeSrc('films/sov1.mp4')">Кавказская пленница, или Новые приключения Шурика</h3>
+        <h3 onclick="ChangeSrc('films/sov2.mp4')">Операция «Ы» и другие приключения Шурика</h3>
+        <h3 onclick="ChangeSrc('films/African_KungFu_Nazi.mp4')">African Kung Fu Nazi</h3>
+        <h3 onclick="ChangeSrc('films/B14.mp4')">B14?</h3>
+        <h3 onclick="ChangeSrc('films/whokilledcaptainalex.mp4')">Who Killed Captain Alex ? (First Action 
+            Packed Movie of Uganda)</h3>
+        <h3 onclick="ChangeSrc('films/TAXI_1.mp4')">Taxi 1</h3>
+        <h3 onclick="ChangeSrc('films/sov3.mp4')">Маша  и Медведь - НОВАЯ СЕРИЯ!Живая шляпа  Коллекция 
+            мультиков для детей про Машу</h3>
+        <h3 onclick="ChangeSrc('films/sov4.mp4')">Не может быть </h3>
+        <h3 onclick="ChangeSrc('films/sov5.mp4')">Ну, погоди! и другие мультфильмы⭐ 
+            Сборник лучших советских мультиков </h3>
+        <h3 onclick="ChangeSrc('films/sov6.mp4')">Простоквашино Все серии подряд </h3>
+        <h3 onclick="ChangeSrc('films/sov7.mp4')">Служебный роман 1 серия</h3>
+        <h3 onclick="ChangeSrc('films/____________.mp4')">VIDE</h3>
+
+    </div>
+
+
+</body>
+</html>
+
